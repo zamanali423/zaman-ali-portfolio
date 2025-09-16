@@ -288,7 +288,7 @@ export default function Page() {
             <ThemeToggle />
             <a
               className="hidden md:inline-flex"
-              href={profile.resumeUrl}
+              href="/resume/Zaman_Ali_Full_Stack_Developer_Resume_124234.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -520,3 +520,4 @@ export default function Page() {
     </div>
   );
 }
+
