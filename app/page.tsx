@@ -31,7 +31,7 @@ const profile = {
   linkedin: "https://www.linkedin.com/in/zamanali27",
   resumeUrl:
     "https://drive.google.com/file/d/1VfZh3cd_TzQ-Abd3-lylfyEEUfoFXPet/view?usp=sharing",
-  UpworkUrl: "https://www.fiverr.com/zamanali27",
+  UpworkUrl: "zamanyaseen2024@gmail.com",
   education: "Bachelors (Software Engineering)",
   achievements: [
     "2+ years of experience delivering full-stack web & mobile applications",
