@@ -23,9 +23,9 @@ import ContactForm from "@/components/contact-form";
 
 const profile = {
   name: "Zaman Ali",
-  role: "Full Stack Developer | 1.5+ Years Experience",
+  role: "Full Stack Developer | 2+ Years Experience",
   summary:
-    "Passionate and self-taught Full Stack Developer with 1.5+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
+    "Passionate and self-taught Full Stack Developer with 2+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
   emails: ["zamanyaseen2024@gmail.com", "zamanali2024@gmail.com"],
   github: "https://github.com/zamanali423",
   linkedin: "https://www.linkedin.com/in/zamanali27",
@@ -34,7 +34,7 @@ const profile = {
   UpworkUrl: "https://www.fiverr.com/zamanali27",
   education: "Bachelors (Software Engineering)",
   achievements: [
-    "1.5+ years of experience delivering full-stack web & mobile applications",
+    "2+ years of experience delivering full-stack web & mobile applications",
     "Built Skilltrends – AI Job & Interview Platform with real-time chatbot automation",
     "Built OneStopCar - e-commerce systems, and educational apps",
     "Strong problem-solving and team collaboration skills",
@@ -44,11 +44,15 @@ const profile = {
     FullStack: [
       "React",
       "Node.js",
+      "Nest.js",
       "Express.js",
       "React Native",
       "Stripe",
       "REST APIs",
       "Next.js",
+      "Problem Solver",
+      "Automation",
+      "Ai integration",
     ],
     Databases: ["MongoDB", "PostgreSQL", "MySQL"],
     Mobile: [
