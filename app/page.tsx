@@ -382,9 +382,9 @@ export default function Page() {
             Platforms fast? Tap "Hire Me", or send me an email, and we’ll
             discuss how we can build together. I build reliable full-stack
             applications end-to-end — from frontend (React.js, Next.js, React
-            Native) to backend (Node.js, Express.js,), with PostgreSQL/MongoDB
+            Native) to backend (Node.js, Nest.js, Express.js,), with PostgreSQL/MongoDB
             databases, AWS deployments, APIs, socket programming, and real-time
-            features. With 1.5+ years of industry expertise and 20+ successful
+            features. With 2+ years of industry expertise and 20+ successful
             projects, I’ve helped hospitals, startups, and businesses launch
             applications that actually deliver value. 🚀
             <br />
