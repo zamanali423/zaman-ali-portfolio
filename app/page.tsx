@@ -292,7 +292,7 @@ export default function Page() {
             <ThemeToggle />
             <a
               className="hidden md:inline-flex"
-              href={resumeUrl}
+              href={profile.resumeUrl}
               target="_blank"
               rel="noreferrer"
             >
