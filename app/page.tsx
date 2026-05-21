@@ -292,7 +292,7 @@ export default function Page() {
             <ThemeToggle />
             <a
               className="hidden md:inline-flex"
-              href="/resume/Zaman_Ali_Full_Stack_Developer_Resume.pdf"
+              href={resumeUrl}
               target="_blank"
               rel="noreferrer"
             >
