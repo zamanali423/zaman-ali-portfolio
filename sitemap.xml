@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://zaman-ali-portfolio.vercel.app/#zamanali",
+  "name": "Zaman Ali",
+  "givenName": "Zaman",
+  "familyName": "Ali",
+  "jobTitle": [
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "AI Developer",
+    "Software Developer"
+  ],
+  "description": "Full Stack Developer, MERN Stack Developer, AI Developer, and Software Engineer specializing in React.js, Node.js, Next.js, React Native, MongoDB, PostgreSQL, and real-time systems.",
+  "url": "https://zaman-ali-portfolio.vercel.app/",
+  "image": "https://zaman-ali-portfolio.vercel.app/profile.jpg",
+  "sameAs": [
+    "https://linkedin.com/in/zamanali27",
+    "https://github.com/zamanali423",
+    "https://zamanportfolio.netlify.app/"
+  ],
+  "knowsAbout": [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "NestJS",
+    "MongoDB",
+    "PostgreSQL",
+    "React Native",
+    "Artificial Intelligence",
+    "MERN Stack",
+    "WebRTC",
+    "Socket.IO",
+    "Automation",
+  ]
+}

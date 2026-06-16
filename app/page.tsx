@@ -23,7 +23,7 @@ import ContactForm from "@/components/contact-form";
 
 const profile = {
   name: "Zaman Ali",
-  role: "Full Stack Developer | 2+ Years Experience",
+  role: "Full Stack Developer | MERN Stack Developer | AI Developer | 2+ Years Experience",
   summary:
     "Passionate and self-taught Full Stack Developer with 2+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
   emails: ["zamanyaseen2024@gmail.com", "zamanali2024@gmail.com"],
@@ -34,45 +34,100 @@ const profile = {
   UpworkUrl: "https://www.linkedin.com/in/zamanali27",
   education: "Bachelors (Software Engineering)",
   achievements: [
-    "2+ years of experience delivering full-stack web & mobile applications",
-    "Built Skilltrends – AI Job & Interview Platform with real-time chatbot automation",
-    "Built OneStopCar - e-commerce systems, and educational apps",
-    "Strong problem-solving and team collaboration skills",
-    "Expertise in React.js, Node.js, PostgreSQL, MongoDB, React Native",
+    "Built Skilltrends AI Jobs & Interview Platform with 200+ registered users",
+    "Developed AI-powered chatbot platform using OpenAI and web scraping",
+    "Built scalable B2B lead generation platform using Puppeteer and Redis",
+    "Designed real-time school transport tracking and route management system",
+    "Developed advanced online exam proctoring and monitoring platform",
+    "Delivered 30+ web and mobile applications using MERN Stack technologies",
+    "Specialized in AI integrations, SaaS platforms, and real-time architectures",
   ],
   skills: {
     FullStack: [
-      "React",
+      "React.js",
+      "Next.js",
       "Node.js",
-      "Nest.js",
+      "NestJS",
       "Express.js",
       "React Native",
-      "Stripe",
+      "TypeScript",
+      "JavaScript",
       "REST APIs",
-      "Next.js",
-      "Problem Solver",
+      "Stripe",
+      "Authentication",
+      "CI/CD",
       "Automation",
-      "Ai integration",
+      "AI Integration",
+      "Chatbot Development",
+      "WhatsApp API",
     ],
-    Databases: ["MongoDB", "PostgreSQL", "MySQL"],
+
+    Databases: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+    ],
+
     Mobile: [
       "React Native",
       "Push Notifications",
-      "Cheating Detection",
-      "Chat System",
+      "Real-Time Chat",
+      "Camera Integration",
+      "WebRTC",
+      "Exam Proctoring",
+      "GPS Tracking",
     ],
+
     Projects: [
-      "Web Scraping",
-      "Skilltrends - AI Job & Interview Platform",
-      "E-Commerce System",
-      "Educational App",
+      "Skilltrends AI Jobs & Interview Platform",
+      "ScrapeChat AI Chatbot Widget",
+      "B2B Leads Generation Platform",
+      "Van Pooling & School Transport System",
+      "Real-Time Exam Proctoring System",
+      "Hospital Management System",
+      "Boxigo Logistics Platform",
+      "Real-Time Collaboration Tool",
+      "Full-Stack E-Commerce Platform",
+      "Luxegentlemen Barber Salon Platform",
     ],
+
+    AI: [
+      "OpenAI",
+      "AI Chatbots",
+      "Prompt Engineering",
+      "Interview Simulation",
+      "AI Automation",
+      "Conversational AI",
+      "Web Scraping + AI",
+    ],
+
+    RealTime: [
+      "Socket.IO",
+      "WebRTC",
+      "Live Tracking",
+      "Real-Time Notifications",
+      "Event-Driven Systems",
+      "Live Monitoring",
+    ],
+
+    DevOps: [
+      "Docker",
+      "GitHub",
+      "Vercel",
+      "Netlify",
+      "Postman",
+      "BullMQ",
+      "Redis",
+    ],
+
     Soft: [
       "Leadership",
       "Critical Thinking",
+      "Problem Solving",
       "Agile Development",
       "Communication",
-      "Teamwork",
+      "Team Collaboration",
+      "Project Management",
     ],
   },
 };
@@ -80,108 +135,267 @@ const profile = {
 const projects = [
   {
     icon: Rocket,
-    title: "Skilltrends – AI Job & Interview Platform",
+    title: "Skilltrends AI Jobs & Interview Platform",
     bullets: [
-      "Tracks thousands of jobs daily; analytics for languages & stacks",
-      "AI interviewer for coding practice with scoring & feedback",
-      "Stripe‑based subscriptions & monetization",
+      "Built AI-powered job discovery and interview coaching SaaS platform",
+      "Integrated OpenAI for mock interviews, scoring, and personalized feedback",
+      "Implemented Stripe subscription billing with multiple pricing tiers",
+      "Supported 200+ registered users with real-time interview simulations",
+      "Developed analytics dashboards for job trends, technologies, and hiring insights",
     ],
     links: [
-      { label: "skilltrends.io", href: "https://skilltrends.io" },
       {
-        label: "Interview Platform (Beta)",
+        label: "Live Demo",
         href: "https://skilltrends-front.vercel.app/",
       },
     ],
-    chips: ["Next.js", "FastAPI", "OpenAI", "Stripe", "PostgreSQL"],
-  },
-  {
-    icon: Rocket,
-    title: "OneStopCar - E-Commerce System",
-    bullets: [
-      "E-Commerce System with real-time order tracking & efficient dispatch",
-      "End‑to‑end lifecycle: requirements → deployment → scaling",
-      "Admin panel for managing orders & products",
-    ],
-    links: [{ label: "onestopcar.net", href: "https://onestopcar.net/" }],
     chips: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
+      "Next.js",
+      "NestJS",
+      "OpenAI",
+      "Stripe",
+      "PostgreSQL",
       "REST APIs",
-      "Socket.io",
+      "Authentication",
+      "CI/CD",
     ],
   },
+
+  {
+    icon: Sparkles,
+    title: "ScrapeChat - Embeddable AI Chatbot Widget",
+    bullets: [
+      "Built embeddable AI chatbot deployable through a single JavaScript integration",
+      "Implemented website-specific knowledge retrieval using web scraping",
+      "Integrated OpenAI API for intelligent contextual conversations",
+      "Enabled businesses to deploy AI assistants on websites within minutes",
+      "Developed scalable backend architecture with chatbot management dashboard",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://chatbot-frontend-hazel-eta.vercel.app",
+      },
+    ],
+    chips: [
+      "Next.js",
+      "NestJS",
+      "OpenAI API",
+      "MongoDB",
+      "Web Scraping",
+      "AI Chatbot",
+      "JavaScript Widget",
+    ],
+  },
+
   {
     icon: Shield,
-    title: "Web Scraping",
+    title: "B2B Leads Generation Platform",
     bullets: [
-      "Web Scraping for leads, social, job boards,news,property",
-      "Data cleaning & enrichment with automated QA",
-      "Insights delivered in custom dashboards",
+      "Developed automated lead generation platform for businesses and agencies",
+      "Built scalable scraping pipelines using Puppeteer and Google Maps",
+      "Collected business emails, social profiles, phone numbers, and company data",
+      "Implemented BullMQ and Redis for distributed job processing",
+      "Created analytics dashboard for managing and exporting generated leads",
     ],
-    links: [{ label: "GitHub Samples", href: profile.github }],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://brainscraft-leads.vercel.app",
+      },
+    ],
+    chips: [
+      "Node.js",
+      "React.js",
+      "Puppeteer",
+      "Redis",
+      "BullMQ",
+      "Google Maps",
+      "Web Scraping",
+    ],
+  },
+
+  {
+    icon: Rocket,
+    title: "Van Pooling & School Transport System",
+    bullets: [
+      "Built complete school transport and ride-sharing management platform",
+      "Implemented live GPS tracking and route visualization",
+      "Developed automated route planning and vehicle monitoring modules",
+      "Integrated real-time notifications for parents, drivers, and administrators",
+      "Provided guard attendance monitoring and trip safety management",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://van-pooling-front.vercel.app",
+      },
+    ],
     chips: [
       "React.js",
       "Node.js",
-      "Puppeteer",
-      "Cheerio",
+      "PostgreSQL",
+      "Socket.IO",
+      "GPS Tracking",
+      "Real-Time Systems",
+    ],
+  },
+
+  {
+    icon: Award,
+    title: "Full-Stack E-Commerce Platform",
+    bullets: [
+      "Built complete e-commerce platform with customer and admin portals",
+      "Implemented authentication, product catalog, cart, and checkout modules",
+      "Developed order management and inventory tracking features",
+      "Created responsive user interface and secure APIs",
+      "Integrated role-based administration panel",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://onestopcar.net",
+      },
+    ],
+    chips: [
+      "MERN Stack",
+      "JWT",
       "MongoDB",
-      "Redis",
-      "Bull Queue",
-      "Socket.io",
+      "React.js",
+      "Node.js",
+      "REST APIs",
+    ],
+  },
+
+  {
+    icon: Shield,
+    title: "Real-Time Exam Proctoring System",
+    bullets: [
+      "Developed online examination platform with advanced anti-cheating mechanisms",
+      "Integrated WebRTC-based monitoring and camera surveillance",
+      "Implemented real-time proctoring dashboard for administrators",
+      "Built automated cheating detection using snapshots and activity tracking",
+      "Supported live exam management and performance reporting",
+    ],
+    links: [
+      {
+        label: "GitHub Samples",
+        href: profile.github,
+      },
+    ],
+    chips: [
+      "React Native",
+      "Node.js",
+      "WebRTC",
+      "Socket.IO",
+      "MongoDB",
+      "AI Monitoring",
+      "Real-Time Systems",
+    ],
+  },
+
+  {
+    icon: Award,
+    title: "Hospital Management System",
+    bullets: [
+      "Designed role-based hospital administration platform",
+      "Implemented doctor, patient, appointment, and department management",
+      "Developed scheduling and reporting modules",
+      "Built secure authentication and authorization workflows",
+      "Automated hospital operational processes and reporting",
+    ],
+    links: [
+      {
+        label: "GitHub Samples",
+        href: profile.github,
+      },
+    ],
+    chips: [
+      "ASP.NET MVC",
+      "C#",
+      "SQL Server",
+      "Authentication",
+      "Reporting",
+    ],
+  },
+
+  {
+    icon: Wrench,
+    title: "Boxigo Logistics Platform",
+    bullets: [
+      "Built courier and parcel booking management platform",
+      "Implemented shipment tracking and order lifecycle management",
+      "Integrated AI chatbot for customer support and automation",
+      "Developed admin dashboard for logistics operations",
+      "Enabled real-time shipment status updates",
+    ],
+    links: [
+      {
+        label: "GitHub Samples",
+        href: profile.github,
+      },
+    ],
+    chips: [
+      "MERN Stack",
+      "AI Chatbot",
+      "Node.js",
+      "MongoDB",
+      "React.js",
+      "Logistics",
+    ],
+  },
+
+  {
+    icon: Wrench,
+    title: "Real-Time Collaboration Tool",
+    bullets: [
+      "Built multi-user collaboration platform with live synchronization",
+      "Implemented real-time chat and collaborative document editing",
+      "Developed CRUD modules and project management features",
+      "Enabled exportable reports and activity tracking",
+      "Supported concurrent users with Socket.IO architecture",
+    ],
+    links: [
+      {
+        label: "GitHub Samples",
+        href: profile.github,
+      },
+    ],
+    chips: [
+      "React.js",
+      "Node.js",
+      "Socket.IO",
+      "MongoDB",
+      "Real-Time Collaboration",
+      "REST APIs",
     ],
   },
   {
     icon: Award,
-    title: "Luxegentlemen - Barber Shop",
+    title: "Luxegentlemen Barber Salon Platform",
     bullets: [
-      "Whatsapp Api Integration",
-      "AI Chatbot for customer support",
-      "Admin Panel for managing orders & products",
+      "Developed complete online barber shop booking and management platform",
+      "Implemented appointment scheduling and availability management",
+      "Integrated WhatsApp API for booking confirmations and customer communication",
+      "Built AI-powered chatbot for customer support and service inquiries",
+      "Created admin dashboard for managing appointments, services, and customers"
     ],
-    links: [{ label: "GitHub Samples", href: profile.github }],
-    chips: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Whatsapp Api",
-      "Chatbot (AI)",
-      "Push Notifications",
+    links: [
+      {
+        label: "GitHub Samples",
+        href: profile.github,
+      },
     ],
-  },
-  {
-    icon: Wrench,
-    title: "Real Time Collaboration System",
-    bullets: [
-      "Real‑time collaboration for documents, spreadsheets, & presentations",
-      "Make projects together with real-time collaboration",
-      "End‑to‑end lifecycle: requirements → deployment → scaling",
-    ],
-    links: [{ label: "GitHub Samples", href: profile.github }],
     chips: [
       "React.js",
-      "Socket.io",
+      "Node.js",
       "Express.js",
       "MongoDB",
-      "Node.js",
-      "Quill.js",
-      "Chat (Socket.io)",
-      "REST APIs",
+      "WhatsApp API",
+      "AI Chatbot",
+      "Appointment Booking",
+      "Admin Dashboard",
     ],
-  },
-  {
-    icon: Shield,
-    title: "Food Order System",
-    bullets: [
-      "Food Order System with real-time order tracking & efficient dispatch",
-      "Admin panel for managing orders & products",
-      "Easy to use & efficient user interface",
-    ],
-    links: [{ label: "GitHub Samples", href: profile.github }],
-    chips: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
   },
 ];
 
@@ -384,7 +598,7 @@ export default function Page() {
             applications end-to-end — from frontend (React.js, Next.js, React
             Native) to backend (Node.js, Nest.js, Express.js,), with PostgreSQL/MongoDB
             databases, AWS deployments, APIs, socket programming, and real-time
-            features. With 2+ years of industry expertise and 20+ successful
+            features. With 2+ years of industry expertise and 30+ successful
             projects, I’ve helped hospitals, startups, and businesses launch
             applications that actually deliver value. 🚀
             <br />
