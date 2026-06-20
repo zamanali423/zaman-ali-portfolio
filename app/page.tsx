@@ -31,7 +31,7 @@ const profile = {
   linkedin: "https://www.linkedin.com/in/zamanali27",
   resumeUrl:
     "https://drive.google.com/file/d/1EhV1YEzVYQhZo1WureoF7uOnzzK9EJso/view?usp=drive_link",
-  UpworkUrl: "https://www.linkedin.com/in/zamanali27",
+  UpworkUrl: "zamanyaseen2024@gmail.com",
   education: "Bachelors (Software Engineering)",
   achievements: [
     "Built Skilltrends AI Jobs & Interview Platform with 200+ registered users",
