@@ -23,9 +23,9 @@ import ContactForm from "@/components/contact-form";
 
 const profile = {
   name: "Zaman Ali",
-  role: "Full Stack Developer | MERN Stack Developer | AI Developer | 2+ Years Experience",
+  role: "Full Stack Developer | MERN Stack Developer | AI Developer | 2.5+ Years Experience",
   summary:
-    "Passionate and self-taught Full Stack Developer with 2+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
+    "Passionate and self-taught Full Stack Developer with 2.5+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
   emails: ["zamanyaseen2024@gmail.com", "zamanali2024@gmail.com"],
   github: "https://github.com/zamanali423",
   linkedin: "https://www.linkedin.com/in/zamanali27",
@@ -598,7 +598,7 @@ export default function Page() {
             applications end-to-end — from frontend (React.js, Next.js, React
             Native) to backend (Node.js, Nest.js, Express.js,), with PostgreSQL/MongoDB
             databases, AWS deployments, APIs, socket programming, and real-time
-            features. With 2+ years of industry expertise and 30+ successful
+            features. With 2.5+ years of industry expertise and 30+ successful
             projects, I’ve helped hospitals, startups, and businesses launch
             applications that actually deliver value. 🚀
             <br />
