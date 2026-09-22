@@ -23,9 +23,9 @@ import ContactForm from "@/components/contact-form";
 
 const profile = {
   name: "Zaman Ali",
-  role: "Full Stack Developer | MERN Stack Developer | AI Developer | 2.5+ Years Experience",
+  role: "Full Stack Developer | MERN Stack Developer | AI Developer | 3+ Years Experience",
   summary:
-    "Passionate and self-taught Full Stack Developer with 2.5+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
+    "Passionate and self-taught Full Stack Developer with 3+ years of experience delivering high-quality web & mobile applications. Skilled in React.js, Node.js, PostgreSQL, MongoDB, and React Native, with a strong background in Skilltrends – AI Job & Interview Platform, OneStopCar - e-commerce platform, and scalable mobile apps. Known for problem-solving, teamwork, and a drive to keep learning and improving",
   emails: ["zamanyaseen2024@gmail.com", "zamanali2024@gmail.com"],
   github: "https://github.com/zamanali423",
   linkedin: "https://www.linkedin.com/in/zamanali27",
@@ -34,7 +34,7 @@ const profile = {
   UpworkUrl: "https://www.upwork.com/freelancers/zamanali27",
   education: "Bachelors (Software Engineering)",
   achievements: [
-    "Built Skilltrends AI Jobs & Interview Platform with 200+ registered users",
+    "Built Skilltrends AI Jobs & Interview Platform with 1000+ registered users",
     "Developed AI-powered chatbot platform using OpenAI and web scraping",
     "Built scalable B2B lead generation platform using Puppeteer and Redis",
     "Designed real-time school transport tracking and route management system",
@@ -598,7 +598,7 @@ export default function Page() {
             applications end-to-end — from frontend (React.js, Next.js, React
             Native) to backend (Node.js, Nest.js, Express.js,), with PostgreSQL/MongoDB
             databases, AWS deployments, APIs, socket programming, and real-time
-            features. With 2.5+ years of industry expertise and 30+ successful
+            features. With 3+ years of industry expertise and 30+ successful
             projects, I’ve helped hospitals, startups, and businesses launch
             applications that actually deliver value. 🚀
             <br />
