@@ -30,7 +30,7 @@ const profile = {
   github: "https://github.com/zamanali423",
   linkedin: "https://www.linkedin.com/in/zamanali27",
   resumeUrl:
-    "https://drive.google.com/file/d/1EhV1YEzVYQhZo1WureoF7uOnzzK9EJso/view?usp=drive_link",
+    "https://drive.google.com/file/d/1o1m5OpiQmYElolA7hSS8AD0Sykf-g_kx/view?usp=sharing",
   UpworkUrl: "https://www.upwork.com/freelancers/zamanali27",
   education: "Bachelors (Software Engineering)",
   achievements: [
